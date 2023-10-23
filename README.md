@@ -33,7 +33,7 @@ Insert gif or link to demo
 - [x] ajout d'un formulaire pour gérer les likes sur les messages,
 - [x] interdictions des pages feed, settings, followers et subscriptions tant que la connexion n’a pas été validée,
 - [x] changement du menu profil pour qu’il pointe vers la page de connexion quand l'utilisateur n'est pas connecté,
-- [x] séparer les messages en paragraphes (mettre les paragraphes entre balise <p>,
+- [x] séparer les messages en paragraphes (mettre les paragraphes entre balise <p>),
 - [x] analyse des #tags (1/2) : lors de la soumission d’un message analyse du texte pour repérer les mots commençant par un dièse "#" et si besoin ajout du mot-clé inconnu dans la table tags,
 - [x] utilisation d'une bibliothèque CSS (Bootstrap)
 
