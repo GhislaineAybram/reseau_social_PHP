@@ -1,30 +1,44 @@
-# Projet_Collectif_Objectifs
+# CodéConneries
 
-# Objectif général
+Ce projet est un réseau social en PHP sur le thème du développement informatique dont les objectifs généraux sont : 
+- faire un site web dynamique qui construit les pages HTML à la demande grâce à une base de données,
+- enrichir ce site de nouveaux contenus fournis par les utilisateurs avec des formulaires,
+- gérer les authentifications (login), sessions, autorisations (droits d’accès) et inscriptions,
+- avoir un premier aperçu de la conception web, de la conception de base de données, des problématiques d’un projet multi-langages.
 
-• Faire un site web dynamique qui construit les pages HTML à la demande grâce à une base de donnée.
-• Enrichir ce site de nouveaux contenus fournis par les utilisateurs avec des formulaires.
-• Gérer les authentifications (login),sessions, autorisations (droits d’accès) et inscriptions.
-• Avoir un premier aperçu de : la conception web, de la conception base de donnée, des problématiques d’un projet multi-langages.
+## Equipe de 4 personnes
 
-On va explorer tout ça en réalisant un réseau social en PHP. Vous trouverez ci-dessous une synthèse des objectifs des différents niveaux.
+Jérémie PATOT - Gilbert MOUGAMADOU - Bastien VINTRAS - Ghislaine AYBRAM
 
-## Objectif niveau 1
+## Demo
 
-Le réseau social proposé (inspiré de Twitter ou Facebook) affichera les messages des utilisateurs sur différentes pages (les derniers messages, ceux d’un utilisateur en particulier, ceux des utilisateurs suivis, et ceux associés à un mot-clé particulier).
+Insert gif or link to demo
 
-Au niveau technique, le PHP servira à aller chercher des informations dans la base de donnée et à les incorporer dans du HTML pour produire une page complète. 
+## Screenshots
 
-Pour vous mettre le pied à l’étrier, une bonne partie du HTML, des CSS, et des requêtes SQL à la base de données sont déjà fournies. Il s’agit essentiellement d’un texte à trou de difficulté progressive. Ne vous laissez pas impressionner par la quantité de code, c’est juste du contexte, il n’y a que quelques lignes où vous devez intervenir.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-## Objectif niveau 2
+## Tech Stack
 
-On permettra aux utilisateurs de se connecter, de s’inscrire et d’ajouter de nouveaux messages.
+**Langages:** PHP, SQL, HTML, CSS
+**Database:** MySQL
 
-Au niveau technique, l’essentiel sera de construire les formulaires et de préparer la récupération et le traitement des informations fournies par les utilisateurs. On parlera aussi de sessions, nécessaires pour que le serveur se souvienne que la personne est connectée.
+# Fonctionnalités ajoutées
+[x] refactoring du code existant,
+[x] ajout partout où un utilisateur (auteur, contact, etc) est mentionné d'un lien qui mène vers le mur de cet utilisateur,
+[x] ajout d'une page d'inscription au réseau social,
+[x] ajout d'une page de connexion (avec notions de session),
+[x] ajout d'un formulaire d’ajout de message quand l'utilisateur est connecté (publication sur son propre mur),
+[x] ajout d'un formulaire d’abonnement les murs des autres utilisateurs,
+[x] ajout d'un formulaire pour gérer les likes sur les messages,
+[x] interdictions des pages feed, settings, followers et subscriptions tant que la connexion n’a pas été validée,
+[x] changement du menu profil pour qu’il pointe vers la page de connexion quand l'utilisateur n'est pas connecté,
+[x] séparer les messages en paragraphes (mettre les paragraphes entre balise <p>,
+[x] analyse des #tags (1/2) : lors de la soumission d’un message analyse du texte pour repérer les mots commençant par un dièse "#" et si besoin ajout du mot-clé inconnu dans la table tags,
+[x] utilisation d'une bibliothèque CSS (Bootstrap)
 
-## Objectif niveau 3
-
-On essayera d’améliorer l’ensemble en peaufinant les détails, ou carrément à revenir sur la conception générale du site.
-
-Techniquement ce sera l’occasion de revoir des choses laissées dans l’ombre par l’aspect « texte à trou » ou d’approfondir certaines notions plus complexes : analyse de texte, jointures en base de donnée, etc.
+# Reste à implémenter
+[ ] analyse des #tags (2/2) : ajout dans la table posts_tags du lien entre le post et le tag,
+[ ] ajout partout où un mot-clé est mentionné un lien vers la page du mot clé correspondant,
+[ ] permettre à l’utilisateur de “répondre” à un message (à l'aide du champs “parent_id” dans la table “posts” pour noter à quel message correspond cette réponse),
+[ ] permettre le chargement de nouveaux commentaires quand on arrive en fin de page (sans recharger la page) via une bibliothèque javascript comme jquery,
