@@ -7,7 +7,7 @@ Ce projet est un réseau social en PHP sur le thème du développement informati
 - gérer les authentifications (login), sessions, autorisations (droits d’accès) et inscriptions,
 - avoir un premier aperçu de la conception web, de la conception de base de données, des problématiques d’un projet multi-langages.
 
-## Equipe de 4 personnes
+## Equipe de 4 personnes - 6 jours
 
 Jérémie PATOT - Gilbert MOUGAMADOU - Bastien VINTRAS - Ghislaine AYBRAM
 
