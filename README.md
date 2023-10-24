@@ -17,9 +17,9 @@ Jérémie PATOT - Gilbert MOUGAMADOU - Bastien VINTRAS - Ghislaine AYBRAM
 
 ## Tech Stack
 
-**Langages:** PHP, SQL, HTML, CSS
-**Serveur:** Apache (via un installateur MAMP)
-**Database:** MySQL
+- **Langages:** PHP, SQL, HTML, CSS
+- **Serveur:** Apache (via un installateur MAMP)
+- **Database:** MySQL
 
 ## Fonctionnalités ajoutées
 
