@@ -13,7 +13,17 @@ Jérémie PATOT - Gilbert MOUGAMADOU - Bastien VINTRAS - Ghislaine AYBRAM
 
 ## Aperçu du projet
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+*La page actualités du réseau social*
+![App Screenshot](/screen/res_soc_actualites.jpg)
+
+*Le mur de l'utilisateur connecté qui présente ses messages*
+![App Screenshot](/screen/res_soc_mur_utilisateur.jpg)
+
+*La page de présentation des mots clefs avec système d'abonnement aux mots clefs*
+![App Screenshot](/screen/res_soc_mots_clefs.jpg)
+
+*Les personnes auxquelles l'utilisateur s'est abonné*
+![App Screenshot](/screen/res_soc_abonnements.jpg)
 
 ## Tech Stack
 
